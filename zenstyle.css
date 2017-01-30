@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+    background-color: lightgrey;
+}
+
+a:hover {
+    color:black;
+}
+
+.intro, #zen-intro {
+    font-style: bold;
+}
+
+.summary, #zen-summary {
+    font-family: courier;
+    font-size: 10px;
+}
+
+.preamble, #zen-preamble {
+    font-size: 11px;
+}
+
+.main-supporting, #zen-supporting, .explanation, #zen-explanation {
+    font-size: 14px;
+}
+
+.participation, #zen-participation {
+    color: purple;
+}
+
+.benefits, #zen-benefits {
+    font-style: bold, italic;
+    font-family: courier;
+}
+
+.requirements, #zen-requirements {
+    font-size: 10px;
+    font-style: italic;
+}
+
+ul {
+    color: green;
+}
+
+.design-name {
+    font-style: italic;
+    font-family: courier;
+}
+
+.designer-name {
+    font-family: courier;
+}
+
+.archives, .resources, .select {
+    font-family: times;
+    font-size: 16px;
+}
+
+.wrapper {
+    font-size: 16px;
+}
+
+.design-archives {
+    font-size: 14px;
+}
