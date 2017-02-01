@@ -1,47 +1,53 @@
 body {
-    font-family: sans-serif;
+    font-family: courier;
     font-size: 12px;
     color: black;
-    background-color: lightgrey;
 }
 
 a:hover {
-    color:black;
-}
-
-.intro, #zen-intro {
-    font-style: bold;
-}
-
-.summary, #zen-summary {
-    font-family: courier;
-    font-size: 10px;
-}
-
-.preamble, #zen-preamble {
-    font-size: 11px;
-}
-
-.main-supporting, #zen-supporting, .explanation, #zen-explanation {
-    font-size: 14px;
-}
-
-.participation, #zen-participation {
-    color: purple;
-}
-
-.benefits, #zen-benefits {
-    font-style: bold, italic;
-    font-family: courier;
-}
-
-.requirements, #zen-requirements {
-    font-size: 10px;
-    font-style: italic;
+    color: black;
 }
 
 ul {
-    color: green;
+    color: darkgrey;
+}
+
+#css-zen-garden {
+    font-size: 12px;
+}
+
+.intro {
+    font-weight: bold;
+}
+
+.summary {
+    font-family: courier;
+    font-size: 10px;
+}
+
+.preamble {
+    font-size: 11px;
+}
+
+.main, .supporting, .explanation {
+    font-size: 14px;
+}
+
+/*
+.participation {
+    color: purple;
+}
+*/
+
+.benefits {
+    font-weight: bold;
+    font-style: italic;
+    font-family: courier;
+}
+
+.requirements {
+    font-size: 10px;
+    font-style: italic;
 }
 
 .design-name {
@@ -53,10 +59,12 @@ ul {
     font-family: courier;
 }
 
+/*
 .archives, .resources, .select {
     font-family: times;
     font-size: 16px;
 }
+*/
 
 .wrapper {
     font-size: 16px;
@@ -65,3 +73,19 @@ ul {
 .design-archives {
     font-size: 14px;
 }
+
+/*
+.zen-resources {
+    font-family: times;
+}
+*/
+
+.design-selection, .select, .design-archives, .archives, .resources, .select {
+    font-family: courier;
+}
+
+/*
+.page-wrapper, .sidebar, .zen-accessibility, .css-resources, .view-css {
+    font-family: sans-serif;
+}
+*/
